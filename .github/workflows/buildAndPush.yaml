@@ -22,6 +22,6 @@ jobs:
           context:
           file: .Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME}}/tallerflisol:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME}}/APP:latest
 
 #Flisol
